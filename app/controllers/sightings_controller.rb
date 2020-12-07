@@ -15,6 +15,8 @@ class SightingsController < ApplicationController
   end
 end
 
+
+# How to remove created_at and updated_at data
 # def show
 #   sighting = Sighting.find_by(id: params[:id])
 #   render json: sighting.to_json(:include => {
